@@ -29,7 +29,7 @@
                     <v-card-text>
                         <v-list
                         :items="fruit"
-                        item-title="fruit_seedlings"
+                        item-title="fruit_seedling"
                         item-value="id"
                         ></v-list>
                     </v-card-text>
