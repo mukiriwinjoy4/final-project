@@ -7,6 +7,7 @@ import ContactUs from "./../components/ContactUs.vue"
 import Menu from "./../components/Menu.vue"
 import HowtoOrder from "./../components/HowtoOrder.vue"
 import Orders from "./../views/OrdersPage.vue"
+import Plants from "./../views/Plants.vue"
 
 
 
@@ -45,6 +46,11 @@ const routes = [
         path: '/order',
         name: 'Oders',
         component: Orders ,
+    },
+    {
+        path: '/plant',
+        name: 'Plants',
+        component: Plants ,
     },
     
     
