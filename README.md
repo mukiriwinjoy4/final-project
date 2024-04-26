@@ -28,6 +28,7 @@ npm run dev
 npm run build
 ```
 ###screenshot of Edirene's Seedlings
+
 Home
 ![image](https://github.com/mukiriwinjoy4/final-project/assets/159426633/3b522c7a-5936-4bd0-819e-3e2678081905)
 Gallery
