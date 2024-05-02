@@ -63,10 +63,10 @@
       </v-list>
     </v-menu>
 
-    <v-btn text>
+    <!-- <v-btn text>
       <span>Exit</span>
       <v-icon right>mdi-exit-to-app</v-icon>
-    </v-btn>
+    </v-btn> -->
   </v-app-bar>
 </template>
 
@@ -75,6 +75,7 @@ export default {
   data: () => ({
     drawer: true,
     links: [
+      // { icon: "mdi-login", text: "Login", route: "/" },
       { icon: "mdi-home", text: "Home", route: "/" },
       { icon: "mdi-information", text: "AboutUs", route: "/aboutus" },
       { icon: "mdi-image", text: "Gallery", route: "/gallery" },

@@ -23,7 +23,6 @@
 
                 <v-card width="400" title="Make your Order">
                   <v-btn @click="openEmailClient">Message via Email</v-btn>
-
                 </v-card>
   
                 <div class="mt-4 text-subtitle-2 clickable" @click="handleSlotsClick">With slots</div>
@@ -52,7 +51,7 @@
         </v-layout>
 
         <!-- Cart Section -->
-        <aside class="cart">
+        <!-- <aside class="cart">
           <h2>Your Cart</h2>
           <div v-if="cartItems.length === 0" class="empty-cart">Your cart is empty.</div>
           <ul v-else>
@@ -65,7 +64,7 @@
             </li>
             <li class="total">Total: ${{ getTotalPrice() }}</li>
           </ul>
-        </aside>
+        </aside> -->
       </v-container>
     </div>
   </v-main>
@@ -86,44 +85,40 @@ export default {
     };
   },
   methods: {
-    // Your existing methods
-
     openEmailClient() {
-  // Define the recipient email address
-  const emailAddress = 'Edirenesseedlings@gmail.com';
-  
-  // Define the subject and body of the email
-  const subject = 'Subject of the email';
-  const body = 'Content of the email';
-  
-  // Construct the mailto URL with the recipient, subject, and body
-  const mailtoUrl = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-  
-  // Open the default email client with the pre-filled email
-  window.location.href = mailtoUrl;
-  },
+      // Define the recipient email address
+      const emailAddress = 'Edirenesseedlings@gmail.com';
+      
+      // Define the subject and body of the email
+      const subject = 'Subject of the email';
+      const body = 'Content of the email';
+      
+      // Construct the mailto URL with the recipient, subject, and body
+      const mailtoUrl = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      
+      // Open the default email client with the pre-filled email
+      window.location.href = mailtoUrl;
+    },
     handleLocationSearchClick() {
-  // Redirect users to Google Maps for location search
-  window.open('https://www.google.com/maps/search/?api=1', '_blank');
-  },
-
-  openWhatsApp() {
+      // Redirect users to Google Maps for location search
+      window.open('https://www.google.com/maps/search/?api=1', '_blank');
+    },
+    openWhatsApp() {
       // Replace the phone number with the desired WhatsApp number
       const phoneNumber = '0716194355';
 
       // Open WhatsApp with the specified phone number
       window.open(`https://wa.me/${phoneNumber}`, '_blank');
     },
-
-    addToCart(item) {
-      this.cartItems.push(item);
-    },
-    removeFromCart(index) {
-      this.cartItems.splice(index, 1);
-    },
-    getTotalPrice() {
-      return this.cartItems.reduce((total, item) => total + item.price, 0);
-    }
+    // addToCart(item) {
+    //   this.$refs.hassAvocadoComponent.addToCart(item);
+    // },
+    // removeFromCart(index) {
+    //   this.cartItems.splice(index, 1);
+    // },
+    // getTotalPrice() {
+    //   return this.cartItems.reduce((total, item) => total + item.price, 0);
+    // }
   }
 };
 </script>
@@ -147,7 +142,7 @@ export default {
   margin-bottom: 20px;
 }
 
-.cart {
+/* .cart {
   background-color: #f9f9f9;
   padding: 20px;
   border-radius: 5px;
@@ -174,5 +169,5 @@ export default {
   align-items: center;
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
-}
+} */
 </style>

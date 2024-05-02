@@ -44,13 +44,16 @@ export default {
         'charlotte-harrison-RcDJZCVRrQ4-unsplash.jpg',
         'jen-uppend-3mS_VX70noM-unsplash.jpg',
         'jen-uppend-T4FZYPixWfM-unsplash.jpg',
-        'oriol-portell-AbwqpFnBDms-unsplash.jpg',
+        'pixie-oranges.jpg',
         'rodion-kutsaiev-HJcb2t7rmJg-unsplash.jpg',
-        'WhatsApp Image 2024-04-10 at 20.44.10_e461141a.jpg',
-         'WhatsApp Image 2024-04-10 at 20.44.11_15fe656b.jpg', 
+        'Washington.jpg',
+         'kiwi.jpg', 
          'nick-fewings-IkiUJ4XNC10-unsplash.jpg', 
          'vladzimir-nikitsin-wY1GIiiTRak-unsplash.jpg',
          'julian-ackroyd-DjN9dJH44d4-unsplash.jpg',
+         'Tommy.jpg',
+         'Hass avocado.jpg',
+         'tangerine.jpg',
         
       ]
     };

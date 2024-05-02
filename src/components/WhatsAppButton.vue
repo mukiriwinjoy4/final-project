@@ -1,5 +1,5 @@
 <template>
-    <a :href="whatsappLink" class="btn btn-info">Contact via WhatsApp</a>
+    <a :href="whatsappLink" class="btn btn-primary">Contact via WhatsApp</a>
   </template>
   
   <script>

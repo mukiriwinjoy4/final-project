@@ -29,7 +29,7 @@
           <v-card class="mx-auto" max-width="400">
             <v-card-title>WhatsApp/Message</v-card-title>
             <v-card-text>
-              <!-- WhatsApp component -->
+              
               <WhatsAppButton />
             </v-card-text>
           </v-card>
@@ -40,7 +40,7 @@
 </template>
 
 <script>
-import WhatsAppButton from './WhatsAppButton.vue'; // Assuming WhatsAppButton.vue contains the WhatsApp component
+import WhatsAppButton from './WhatsAppButton.vue';
 
 export default {
   name: "App",
