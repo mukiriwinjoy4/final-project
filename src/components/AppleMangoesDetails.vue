@@ -22,7 +22,7 @@
         description: 'Apple Mangoes are a sweet and juicy variety of mango known for their distinct apple-like flavor. They have a yellow skin with a red blush when ripe.',
         growingConditions: 'Apple Mangoes thrive in tropical climates with well-drained soil and regular watering. They require plenty of sunlight to produce high-quality fruit.',
         uses: 'Apple Mangoes are delicious eaten fresh, added to fruit salads, smoothies, desserts, and chutneys. They are a popular choice for juicing and preserving.',
-        price: 150, // Update the price accordingly
+        price: 150, 
       };
     },
   };

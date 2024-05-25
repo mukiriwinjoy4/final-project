@@ -22,7 +22,7 @@
         description: 'Pomegranates are a nutritious fruit known for their juicy arils and sweet-tart flavor. They are rich in antioxidants and vitamins.',
         growingConditions: 'Pomegranates thrive in Mediterranean climates with hot, dry summers and mild winters. They prefer well-drained soil and full sun.',
         uses: 'Pomegranates can be eaten fresh, juiced, or used in salads, desserts, and savory dishes. They are also popular in drinks and cocktails.',
-        price: 300, // Update the price accordingly
+        price: 300, 
       };
     },
   };

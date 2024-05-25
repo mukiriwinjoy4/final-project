@@ -32,6 +32,8 @@
                   <p>At the heart of Edirene's Fruit Seedlings lies a deep commitment to sustainability and environmental stewardship. The nursery employs organic farming practices, ensuring that their seedlings are nurtured without the use of harmful chemicals or pesticides. This dedication to eco-friendly cultivation not only benefits the health of the plants but also the well-being of the surrounding ecosystem.</p>
 
                   <p>Edirene's extensive selection of fruit seedlings includes a wide range of popular and heirloom varieties, catering to the diverse preferences and growing conditions of their customers. From juicy Hass avocados and sweet Pixie oranges to succulent Fuerte avocados and flavorful Kent mangoes, the nursery's inventory is a veritable treasure trove for fruit enthusiasts. With expert guidance and a commitment to customer satisfaction, Edirene's Fruit Seedlings empowers gardeners and farmers to cultivate thriving, bountiful fruit harvests that nourish both body and soul.</p>
+
+                  <p></p>
                 </v-card>
               </v-col>
             </v-row>

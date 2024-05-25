@@ -10,7 +10,7 @@
         <p class="growing-conditions">{{ growingConditions }}</p>
         <p class="uses">{{ uses }}</p>
         <p class="price">${{ price }}</p>
-        <!-- <button @click="addToCart" class="add-to-cart-button">Add to Cart</button> -->
+        
       </div>
     </div>
   </v-main>
@@ -26,13 +26,6 @@ export default {
       price: 150,
     };
   },
-  // methods: {
-  //   addToCart() {
-  //     this.$emit('add-to-cart', {
-  //       name: 'Hass Avocado',
-  //       price: this.price
-  //     });
-  //   }
-  // }
+  
 };
 </script>

@@ -12,7 +12,7 @@
           <!-- <v-img src="/img1.png"></v-img> -->
         </v-avatar>
         <p class="white--text subheading mt-1 text-center">Username</p>
-        <!-- <Popup/> -->
+        
       </v-flex>
     </v-layout>
     <v-list flat>
@@ -23,8 +23,7 @@
         :to="link.route"
         active-class="border"
       >
-        <!-- <v-list-item-action>
-        </v-list-item-action> -->
+        
         <v-list-item-content class="d-flex align-center text-white">
           <v-icon>{{ link.icon }}</v-icon>
           <span class="ml-2">{{ link.text }}</span>

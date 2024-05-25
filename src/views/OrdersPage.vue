@@ -12,17 +12,17 @@
         </tr>
       </thead>
       <tbody>
-        <tr v-for="item in items" :key="item.name">
+        <tr v-for="item in items" :key="item.id">
           <td>{{ item.id }}</td>
           <td>{{ item.plant_name }}</td>
           <td>{{ item.user_name }}</td>
           <td>{{ item.quantity }}</td>
           <td>
-            <button class="btn btn-primary44">Update</button>
-           </td>
-           <td>
-            <button class="btn btn-primary44">Delete</button>
-           </td>
+            <button @click="updateOrder(item.id)" class="btn btn-primary">Update</button>
+          </td>
+          <td>
+            <button @click="deleteOrder(item.id)" class="btn btn-warning">Delete</button>
+          </td>
         </tr>
       </tbody>
     </v-table>
@@ -44,24 +44,18 @@ export default {
       const response = await axios.get("http://127.0.0.1:8000/api/ordering");
       this.items = response.data;
     },
-    // async updateOrders() {
-    //   const response = await axios.update("http://127.0.0.1:8000/api/ordering");
-    //   this.items = response.data;
-    // },
-    // async deleteOrders() {
-    //   const response = await axios.delete("http://127.0.0.1:8000/api/ordering");
-    //   this.items = response.data;
-    // },
+    async updateOrder(orderId) {
+      const response = await axios.put(`http://127.0.0.1:8000/api/ordering/${orderId}`);      
+      this.getOrders(); 
+    },
+    async deleteOrder(orderId) {
+      await axios.delete(`http://127.0.0.1:8000/api/ordering/${orderId}`);
+      this.items = this.items.filter(item => item.id !== orderId); 
+    },
   },
 
   created() {
     this.getOrders();
   },
-  // created() {
-  //   this.updateOrders();
-  // },
-  // created() {
-  //   this.deleteOrders();
-  // },
 };
 </script>

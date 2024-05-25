@@ -17,7 +17,7 @@
         <p class="text-paragraph opacity-80 text-[15px]">
           &copy; 2024 Edirene's Seedlings All rights reserved.
         </p>
-        <!-- Add social media icons here if needed -->
+        
       </div>
     </v-footer>
   </v-main>

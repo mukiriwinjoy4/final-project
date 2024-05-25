@@ -36,8 +36,7 @@
                     :to="item.path"
                     active-class="border"
                   >
-                    <!-- <v-list-item-action>
-                    </v-list-item-action> -->
+                    
                       <span class="ml-2">{{ item.fruit_seedlings }}</span>
                   </v-list-item>
                 

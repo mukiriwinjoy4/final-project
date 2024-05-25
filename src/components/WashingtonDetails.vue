@@ -22,7 +22,7 @@
         description: 'Washington apples are a popular variety known for their crisp texture and sweet-tart flavor. They have a bright red or green skin and white flesh.',
         growingConditions: 'Washington apples are grown in regions with cool climates and well-drained soil. They require a certain number of chill hours to produce fruit.',
         uses: 'Washington apples are great for snacking, baking, juicing, and cooking. They are a versatile fruit used in pies, salads, sauces, and more.',
-        price: 150, // Update the price accordingly
+        price: 150, 
       };
     },
   };

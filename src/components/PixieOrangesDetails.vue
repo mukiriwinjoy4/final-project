@@ -22,7 +22,7 @@
           description: 'Pixie Oranges are a small, sweet citrus fruit with a thin skin and few seeds. They are easy to peel and have a refreshing flavor.',
           growingConditions: 'Pixie Oranges thrive in warm, subtropical climates with well-drained soil and plenty of sunlight. They are typically grown in USDA hardiness zones 9-11.',
           uses: 'Pixie Oranges are great for snacking, juicing, and adding to salads. They are a good source of vitamin C and antioxidants.',
-          price: 250, // Update the price accordingly
+          price: 250, 
         };
     },
   };

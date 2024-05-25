@@ -54,6 +54,9 @@ export default {
          'Tommy.jpg',
          'Hass avocado.jpg',
          'tangerine.jpg',
+         'Washington.jpg',
+         'fuerte.jpg',
+         'Yellow-Passion.jpg',
         
       ]
     };

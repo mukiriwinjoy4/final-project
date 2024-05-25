@@ -1,7 +1,6 @@
 <template>
   <div id="homepage">
     <v-main>
-      <!-- Fullscreen Image -->
       <v-img
         src="WhatsApp Image 2024-04-25 at 09.46.26_edd10602.jpg"
         class="d-flex align-center justify-center"
@@ -13,8 +12,6 @@
           </v-row>
         </template>
       </v-img>
-
-      <!-- Content Section -->
       <v-row align="right" justify="center">
         <v-col cols="20 mx-auto my-20 mt-5">
           <v-card
@@ -42,14 +39,14 @@ const variants = ["elevated", "flat", "tonal", "outlined"];
 </script>
 
 <style scoped>
-/* Ensure the image covers the full viewport */
+
 .v-img {
   height: 100vh;
   width: 100vw;
   object-fit: cover;
 }
 
-/* Remove padding from the container */
+
 .px-0 {
   padding-left: 0 !important;
   padding-right: 0 !important;

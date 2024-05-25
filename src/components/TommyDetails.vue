@@ -22,7 +22,7 @@
         description: 'Tommy Mangoes are a popular variety of mango with a sweet and tangy flavor. They have a thin skin and juicy, fiberless flesh.',
         growingConditions: 'Tommy Mangoes thrive in tropical climates with well-drained soil and plenty of sunlight. They are sensitive to cold temperatures and require protection.',
         uses: 'Tommy Mangoes are great for eating fresh, making juices, smoothies, salads, and desserts. They are a versatile fruit used in various culinary dishes.',
-        price: 150, // Update the price accordingly
+        price: 150, 
       };
     },
   };
